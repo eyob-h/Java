@@ -1,7 +1,8 @@
 public class Basics {
     public static void main(String[] args){
         // System.out.println("Hi There!");
-  // Primitives
+        
+        // Primitives
         // int num1 = 5;
         // int num2 = 10;
         // int num3 = 100_000_000;
@@ -13,14 +14,22 @@ public class Basics {
         // System.out.println(num1+num2);
         // System.out.println(num3);
 
+        // single line comment
+
+        /*
+        Multi line
+        comment
+        */
+
+
         // Arithmetic Operators
         double num1 = 23;
         float num2 = 4;
         
-        System.out.println(num1 + " divided by " + num2 + "  is " + num1/num2 );
-        System.out.println(num1 + " multiplied by " + num2 + "  is " + num1*num2 );
-        System.out.println(num1 + " modulo " + num2 + "  is " + num1%num2 );
-        System.out.println(0 + " modulo " + num2 + "  is " + 0%num2 );
+        System.out.println(num1 + " divided by " + num2 + "  is " + num1 / num2 );
+        System.out.println(num1 + " multiplied by " + num2 + "  is " + num1 * num2 );
+        System.out.println(num1 + " modulo " + num2 + "  is " + num1 % num2 );
+        System.out.println(0 + " modulo " + num2 + "  is " + 0 % num2 );
         
         // Order of precedence 
         int a = 10;
@@ -41,12 +50,49 @@ public class Basics {
         System.out.println("Pre-increment: " + ++num6); 
         System.out.println("Value of a after pre-increment: " + num6); 
         
+        // Comparison Operators
+        System.out.println(10<5); 
+        System.out.println(10>5); 
+        System.out.println(10<=5); 
+        System.out.println(10>=5); 
+        System.out.println(10==5); 
+
+        // Shorthand assignment
+        int x = 5;
+        int y = 3;
+        int z *= 5;
+        int z /= 5;
+        int z %= 5;
+        int z ^= 5;
+        System.out.println(z); 
+
+
+        // Naming Variables
+        /*
+        
+        1. Make'em meaningful
+        2. User lowercase for single words
+        3. User camelCase for multiple words
+        4. Phrase boolean variable names as questions
+
+        */
+
+       int count = 5;
+       int numberOfEmployees = 315;
+       boolean isAdmin = true;
+
+
+      // Strings
+       String companyName = "TechSol";
+       String companyName2 = "  ";
+       System.out.println(companyName); 
+       System.out.println(companyName.toUpperCase()); 
+       System.out.println(companyName.toLowerCase()); 
+       System.out.println(companyName.isBlank()); 
+       System.out.println(companyName2.isEmpty()); 
+       System.out.println(companyName2.isBlank());  
+
+
     }
 }
 
-// single line comment
-
-/*
-Multi line
-comment
-*/

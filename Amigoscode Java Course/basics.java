@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 public class Basics {
     public static void main(String[] args){
         // System.out.println("Hi There!");
@@ -91,6 +94,24 @@ public class Basics {
        System.out.println(companyName.isBlank()); 
        System.out.println(companyName2.isEmpty()); 
        System.out.println(companyName2.isBlank());  
+
+        // Arrays
+        // Declaration
+        //    int[] numbers;           
+        //    int scores[];          
+
+       // Initialization
+       int[] numbers = new int[5];                    // Creates array of size 5 with default values
+       int[] scores = {90, 85, 93, 78, 88};          // Array literal
+       String[] names = new String[]{"Ana", "Bob"};   // Another initialization method    
+
+	   System.out.println(scores);                   // Reference type
+	   System.out.println(scores[2]);  
+
+       int[] intArray = new int[5]; // All elements are initialized to 0
+       String[] stringArray = new String[5]; // All elements are initialized to null
+
+       Arrays.fill(intArrays, 8);
 
 
     }
